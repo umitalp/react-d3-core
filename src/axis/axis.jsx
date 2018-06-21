@@ -25,7 +25,7 @@ export default class Axis extends Component {
     tickOrient: null
   }
 
-  static PropTypes = {
+  static propTypes = {
     showAxis: PropTypes.bool,
     type: PropTypes.string,
     orient: PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
