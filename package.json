@@ -1,14 +1,14 @@
 {
-  "name": "react-d3-core",
-  "version": "1.3.9",
-  "description": "react-d3 chart core component",
+  "name": "mhs-d3-core",
+  "version": "1.0.1",
+  "description": "React d3 chart core component with the changes for React v15.5+",
   "main": "./lib/index.js",
   "scripts": {
     "test": "karma start",
     "build": "rm -rf ./lib && BABEL_ENV=production ./node_modules/.bin/babel ./src --out-dir ./lib",
     "prod": "BABEL_ENV=production NODE_ENV=0 webpack --config webpack.prod.config.js && BABEL_ENV=production NODE_ENV=1 webpack --config webpack.prod.config.js"
   },
-  "author": "ElixirDoc team",
+  "author": "ElixirDoc team and mhs",
   "license": "Apache 2.0",
   "devDependencies": {
     "babel-cli": "^6.6.4",
